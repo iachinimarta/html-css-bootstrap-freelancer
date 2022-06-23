@@ -2,8 +2,6 @@
     --primary-color: #1ABC9C;
     --secondary-color: #2C3E50;
     --tertiary-color: #3A546D;  
-    --fourth-color: #BA4B63;  
-    --fifth-color: #1DA4B6;
 }
 
 html {
@@ -27,7 +25,7 @@ main .row.mine_2height {
 }
 
 main .col-10.mine_3bgc {
-    background-color: var(--fourth-color);
+    background-color: #BA4B63;
 }
 
 main .col-10.mine_3height {
@@ -35,6 +33,25 @@ main .col-10.mine_3height {
 }
 
 main .col-10.mine_4bgc {
-    background-color: var(--fifth-color);
+    background-color: #1DA4B6;
 
 }
+
+main .col-10.mine_5bgc {
+    background-color: black;
+}
+
+main .col-10.mine_6bgc {
+    background-color: #1D83C1;
+}
+
+main .col-10.mine_7bgc {
+    background-color: blue;
+}
+
+main .col-10.mine_8bgc {
+    background-color: #CCB2A3;
+}
+
+
+
