@@ -8,50 +8,55 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-header .row.mine_1bgc {
+/* ************************************************ COLORS */
+
+.mine_1bgc {
     background-color: var(--secondary-color);
 }
 
-header .row.mine_1height {
-    height: 100px;
-}
-
-main .row.mine_2bgc {
+.mine_2bgc {
     background-color: var(--primary-color);
 }
 
-main .row.mine_2height {
-    height: 400px;
-}
-
-main .col-10.mine_3bgc {
+.col-10.mine_3bgc {
     background-color: #BA4B63;
 }
 
-main .col-10.mine_3height {
-    height: 200px;
-}
-
-main .col-10.mine_4bgc {
+.col-10.mine_4bgc {
     background-color: #1DA4B6;
-
 }
 
-main .col-10.mine_5bgc {
+.col-10.mine_5bgc {
     background-color: black;
 }
 
-main .col-10.mine_6bgc {
+.col-10.mine_6bgc {
     background-color: #1D83C1;
 }
 
-main .col-10.mine_7bgc {
+.col-10.mine_7bgc {
     background-color: blue;
 }
 
-main .col-10.mine_8bgc {
+.col-10.mine_8bgc {
     background-color: #CCB2A3;
 }
 
+.mine_9bgc {
+    background-color: var(--tertiary-color);
+}
 
 
+/* ************************************************* HEIGHTS */
+
+.mine_1height {
+    height: 100px;
+}
+
+.mine_2height {
+    height: 400px;
+}
+
+.col-10.mine_3height {
+    height: 200px;
+}
