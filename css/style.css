@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #1ABC9C;
+    --secondary-color: #2C3E50;
+    --tertiary-color: #3A546D;    
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row.mine_bgc {
+    background-color: var(--secondary-color);
+}
+
+.row.mine_height {
+    height: 100px;
+}
