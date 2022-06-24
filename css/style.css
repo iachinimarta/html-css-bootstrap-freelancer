@@ -8,8 +8,6 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-/* ************************************************ COLORS */
-
 .custom_1bgc {
     background-color: var(--secondary-color);
 }
@@ -21,9 +19,6 @@ html {
 .custom_3bgc {
     background-color: var(--tertiary-color);
 }
-
-
-/* ******************************************************** */
 
 .debug .custom_1height {
     height: 400px;
@@ -84,4 +79,40 @@ form label {
     margin-top: 20px;
     margin-bottom: 15px;
     
+}
+
+.img-wrapper img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.img-wrapper {
+    position: relative;
+    padding: 0 1px;
+    border: 5px solid white;
+}
+
+.overlay {
+    background-color: #1788717b;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    border-radius: 20px; 
+}
+
+.overlay-plus {
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper:hover .overlay {
+    display: block;
 }
