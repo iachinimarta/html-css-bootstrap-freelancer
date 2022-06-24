@@ -30,12 +30,17 @@ html {
 }
 
 .debug .img-debug {
-    background-color: #BA4B63;
     min-height: 200px;
     width: 100%;
 }
 
-
+div.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100px;
+    width: 100%;
+}
 
 .avatar {
     width: 100%;
@@ -51,5 +56,14 @@ html {
 }
 
 form label {
+    padding-top: 5px;
+}
+
+.custom_circle {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
     padding-top: 5px;
 }
