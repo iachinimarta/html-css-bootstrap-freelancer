@@ -53,10 +53,16 @@ html {
     height: 100px;
 }
 
-.mine_2height {
-    height: 400px;
+.debug .mine_2height {
+    min-height: 400px;
 }
 
 .col-10.mine_3height {
     height: 200px;
+}
+
+.debug .img-debug {
+    background-color: #BA4B63;
+    min-height: 200px;
+    width: 100%;
 }
