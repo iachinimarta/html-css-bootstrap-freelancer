@@ -18,47 +18,15 @@ html {
     background-color: var(--primary-color);
 }
 
-.col-10.mine_3bgc {
-    background-color: #BA4B63;
-}
-
-.col-10.mine_4bgc {
-    background-color: #1DA4B6;
-}
-
-.col-10.mine_5bgc {
-    background-color: black;
-}
-
-.col-10.mine_6bgc {
-    background-color: #1D83C1;
-}
-
-.col-10.mine_7bgc {
-    background-color: blue;
-}
-
-.col-10.mine_8bgc {
-    background-color: #CCB2A3;
-}
-
-.mine_9bgc {
+.mine_3bgc {
     background-color: var(--tertiary-color);
 }
 
 
 /* ************************************************* HEIGHTS */
 
-.mine_1height {
-    height: 100px;
-}
-
-.debug .mine_2height {
-    min-height: 400px;
-}
-
-.col-10.mine_3height {
-    height: 200px;
+.debug .mine_1height {
+    height: 400px;
 }
 
 .debug .img-debug {
