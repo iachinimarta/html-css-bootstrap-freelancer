@@ -10,22 +10,22 @@ html {
 
 /* ************************************************ COLORS */
 
-.mine_1bgc {
+.custom_1bgc {
     background-color: var(--secondary-color);
 }
 
-.mine_2bgc {
+.custom_2bgc {
     background-color: var(--primary-color);
 }
 
-.mine_3bgc {
+.custom_3bgc {
     background-color: var(--tertiary-color);
 }
 
 
 /* ************************************************* HEIGHTS */
 
-.debug .mine_1height {
+.debug .custom_1height {
     height: 400px;
 }
 
