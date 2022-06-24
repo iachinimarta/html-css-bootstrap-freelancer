@@ -23,15 +23,10 @@ html {
 }
 
 
-/* ************************************************* HEIGHTS */
+/* ******************************************************** */
 
 .debug .custom_1height {
     height: 400px;
-}
-
-.debug .img-debug {
-    min-height: 200px;
-    width: 100%;
 }
 
 div.info {
@@ -66,4 +61,27 @@ form label {
     border-radius: 50%;
     border: 1px solid white;
     padding-top: 5px;
+}
+
+.custom_color {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.line {
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    margin: 0 10px;
+}
+
+.line_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
 }
